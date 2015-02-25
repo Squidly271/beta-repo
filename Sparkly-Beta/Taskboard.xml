@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Container>
 <Name>Taskboard</Name>
-<Description>Taskboard test installation only</Description>
+<Description>Taskboard test installation only[br]IMPORTANT :- YOU MUST CHANGE THE HOST PORT BELOW</Description>
 <Registry>https://registry.hub.docker.com/u/sparklyballs/taskboard/</Registry>
 <Repository>sparklyballs/taskboard</Repository>
 <BindTime>true</BindTime>
@@ -10,7 +10,7 @@
 <Mode>bridge</Mode>
 <Publish>
 <Port>
-<HostPort>8099</HostPort>
+<HostPort>80</HostPort>
 <ContainerPort>80</ContainerPort>
 <Protocol>tcp</Protocol>
 </Port>
@@ -34,7 +34,7 @@
 <Mode>rw</Mode>
 </Volume>
 </Data>
-<WebUI>http://[IP]:[PORT:8099]/</WebUI>
+<WebUI>http://[IP]:[PORT:80]/</WebUI>
 <Banner></Banner>
 <Icon></Icon>
 </Container>
