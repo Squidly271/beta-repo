@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Container>
 <Name>Bright-game</Name>
-<Description>Bright game panel test installation only</Description>
+<Description>Bright game panel test installation only[br]IMPORTANT:- YOU MUST CHANGE THE HOST PORT BELOW</Description>
 <Registry>https://registry.hub.docker.com/u/sparklyballs/bright-game/</Registry>
 <Repository>sparklyballs/bright-game</Repository>
 <BindTime>true</BindTime>
@@ -10,7 +10,7 @@
 <Mode>bridge</Mode>
 <Publish>
 <Port>
-<HostPort>8099</HostPort>
+<HostPort>80</HostPort>
 <ContainerPort>80</ContainerPort>
 <Protocol>tcp</Protocol>
 </Port>
