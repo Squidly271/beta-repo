@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Container>
 <Name>ComicStreamer</Name>
-<Description>Comicstreamer test installation only[br]/root/.ComicStreamer is config folder[br]/comics should be mapped to your local comics</Description>
+<Description>Comicstreamer test installation only[br]SOFTWARE DEVELOPEMENT SEEMS TO HAVE CEASED ON THIS[br]INSTALLATION IS AT YOUR OWN RISK[br]/root/.ComicStreamer is config folder[br]/comics should be mapped to your local comics</Description>
 <Registry>https://registry.hub.docker.com/u/sparklyballs/comicstreamer/</Registry>
 <Repository>sparklyballs/comicstreamer</Repository>
 <BindTime>true</BindTime>
