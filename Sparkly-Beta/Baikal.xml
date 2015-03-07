@@ -3,7 +3,7 @@
 <Name>Baikal</Name>
 <Description>Baikal test installation only[br]IMPORTANT :- YOU MUST CHANGE THE HOST PORT BELOW[br] ALSO SELECT SQLITE AS DATABASE TYPE (DEFAULT)</Description>
 <Registry>https://registry.hub.docker.com/u/sparklyballs/baikal/</Registry>
-<Repository>sparklyballs/lychee</Repository>
+<Repository>sparklyballs/baikal</Repository>
 <BindTime>true</BindTime>
 <Privileged>false</Privileged>
 <Networking>
