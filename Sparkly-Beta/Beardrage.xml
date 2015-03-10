@@ -19,7 +19,11 @@
 <Environment>
 <Variable>
 <Name>EDGE</Name>
-<Value></Value>
+<Value>0</Value>
+</Variable>
+<Variable>
+<Name>SICKRAGE</Name>
+<Value>0</Value>
 </Variable>
 </Environment>
 <Data>
