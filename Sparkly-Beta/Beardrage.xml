@@ -44,6 +44,6 @@
 </Volume>
 </Data>
 <WebUI>http://[IP]:[PORT:8081]/</WebUI>
-<Banner>http://i.imgur.com/SqhPdyk.png</Banner>
-<Icon>http://i.imgur.com/wx5Cp2n.png</Icon>
+<Banner></Banner>
+<Icon>http://i.imgur.com/EjWV8rZ.png</Icon>
 </Container>
