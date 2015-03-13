@@ -25,7 +25,7 @@
 <Data>
 <Volume>
 <HostDir></HostDir>
-<ContainerDir>/var/www/mynna</ContainerDir>
+<ContainerDir>/var/www/myyna</ContainerDir>
 <Mode>rw</Mode>
 </Volume>
 <Volume>
