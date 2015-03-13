@@ -25,12 +25,12 @@
 <Data>
 <Volume>
 <HostDir></HostDir>
-<ContainerDir>/var/www/myyna</ContainerDir>
+<ContainerDir>/config</ContainerDir>
 <Mode>rw</Mode>
 </Volume>
 <Volume>
 <HostDir></HostDir>
-<ContainerDir>/data/db</ContainerDir>
+<ContainerDir></ContainerDir>
 <Mode>rw</Mode>
 </Volume>
 </Data>
