@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Container>
-<Name>Baikal</Name>
+<Name>Myyna</Name>
 <Description>Myyna test installation only[br]IMPORTANT :- YOU MUST REGISTER AT http://www.myyna.com/[br] USE LOCALHOST AND LEAVE USER/PASSWORD BLANK FOR DATABASE</Description>
-<Registry>https://registry.hub.docker.com/u/sparklyballs/baikal/</Registry>
-<Repository>sparklyballs/baikal</Repository>
+<Registry>https://registry.hub.docker.com/u/sparklyballs/myyna/</Registry>
+<Repository>sparklyballs/myyna</Repository>
 <BindTime>true</BindTime>
 <Privileged>false</Privileged>
 <Networking>
