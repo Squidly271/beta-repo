@@ -30,12 +30,7 @@
 <Data>
 <Volume>
 <HostDir></HostDir>
-<ContainerDir>/DICOM</ContainerDir>
-<Mode>rw</Mode>
-</Volume>
-<Volume>
-<HostDir></HostDir>
-<ContainerDir>/DATABASE</ContainerDir>
+<ContainerDir>/config</ContainerDir>
 <Mode>rw</Mode>
 </Volume>
 </Data>
