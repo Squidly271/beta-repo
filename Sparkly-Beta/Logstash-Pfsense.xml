@@ -40,7 +40,7 @@
 </Volume>
 <Volume>
 <HostDir></HostDir>
-<ContainerDir>/var/www/kibana3</ContainerDir>
+<ContainerDir>/var/www/kibana</ContainerDir>
 <Mode>rw</Mode>
 </Volume>
 </Data>
