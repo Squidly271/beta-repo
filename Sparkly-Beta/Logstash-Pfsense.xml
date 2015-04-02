@@ -2,8 +2,8 @@
 <Container>
 <Name>Pf-Logstash</Name>
 <Description>Pfsense logstash test installation only</Description>
-<Registry>https://registry.hub.docker.com/u/sparklyballs/elkstash-pfsense/</Registry>
-<Repository>sparklyballs/elkstash-pfsense</Repository>
+<Registry>https://registry.hub.docker.com/u/sparklyballs/elkstash/</Registry>
+<Repository>sparklyballs/sparklyballs/elkstash</Repository>
 <BindTime>true</BindTime>
 <Privileged>false</Privileged>
 <Networking>
@@ -38,8 +38,13 @@
 <ContainerDir>/config</ContainerDir>
 <Mode>rw</Mode>
 </Volume>
+<Volume>
+<HostDir></HostDir>
+<ContainerDir>/var/www/kibana3</ContainerDir>
+<Mode>rw</Mode>
+</Volume>
 </Data>
-<WebUI>http://[IP]:[PORT:80]/index.html#/dashboard/file/logstash.json</WebUI>
+<WebUI>http://[IP]:[PORT:80]/index.html#/dashboard/file/pfsense.json</WebUI>
 <Banner>http://3.bp.blogspot.com/-kEJdMJOk-Ek/VLBP35BVfYI/AAAAAAACPBc/1NERucHXl_o/s1600/kibana_banner.png</Banner>
 <Icon>http://i.imgur.com/Bkp9gC2.png</Icon>
 </Container>
