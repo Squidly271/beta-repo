@@ -3,7 +3,7 @@
 <Name>Pf-Logstash</Name>
 <Description>Pfsense logstash test installation only</Description>
 <Registry>https://registry.hub.docker.com/u/sparklyballs/elkstash/</Registry>
-<Repository>sparklyballs/sparklyballs/elkstash</Repository>
+<Repository>sparklyballs/elkstash</Repository>
 <BindTime>true</BindTime>
 <Privileged>false</Privileged>
 <Networking>
