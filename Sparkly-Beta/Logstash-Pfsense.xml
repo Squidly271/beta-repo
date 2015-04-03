@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Container>
 <Name>Pf-Logstash</Name>
-<Description>Pfsense logstash test installation only</Description>
+<Description>ELK stack specifically for monitoring PFsense (2.2 by default)</Description>
 <Registry>https://registry.hub.docker.com/u/sparklyballs/elkstash/</Registry>
 <Repository>sparklyballs/elkstash</Repository>
 <BindTime>true</BindTime>
