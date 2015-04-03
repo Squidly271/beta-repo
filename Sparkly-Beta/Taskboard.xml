@@ -36,5 +36,5 @@
 </Data>
 <WebUI>http://[IP]:[PORT:80]/</WebUI>
 <Banner></Banner>
-<Icon></Icon>
+<Icon>http://emotionalsurvivalkit.com.au/wp-content/post-its/post-it%20note6.png</Icon>
 </Container>
