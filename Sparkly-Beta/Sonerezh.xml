@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Container>
 <Name>Sonerezh</Name>
-<Description>Sonerezh test installation only[br]IMPORTANT :- YOU MUST CHANGE THE HOST PORT BELOW[br] ALSO CREATE A DATABASE IN MARIADB/MYSQL SERVER</Description>
+<Description>A self-hosted, web-based application for stream your music, everywhere. html5. Sonerezh works with the latest web technologies.[br]IMPORTANT :- YOU MUST CHANGE THE HOST PORT BELOW[br] ALSO CREATE A DATABASE IN MARIADB/MYSQL SERVER</Description>
 <Registry>https://registry.hub.docker.com/u/sparklyballs/sonerezh/</Registry>
 <Repository>sparklyballs/sonerezh</Repository>
 <BindTime>true</BindTime>
