@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Container>
 <Name>Baikal</Name>
-<Description>Baïkal lets you synchronize your calendars and address books over CalDAV and CardDAV. Baïkal implements the IETF standards for centralized calendar and address book collections and is compatible with a large set of applications[br][b]IMPORTANT :- YOU MUST CHANGE THE HOST PORT BELOW[/b][br] ALSO SELECT SQLITE AS DATABASE TYPE (DEFAULT)</Description>
+<Description>Baïkal lets you synchronize your calendars and address books over CalDAV and CardDAV.[br]Baïkal implements the IETF standards for centralized calendar and address book collections and is compatible with a large set of applications[br][b]IMPORTANT :- YOU MUST CHANGE THE HOST PORT BELOW[/b][br] ALSO SELECT SQLITE AS DATABASE TYPE (DEFAULT)</Description>
 <Registry>https://registry.hub.docker.com/u/sparklyballs/baikal/</Registry>
 <Repository>sparklyballs/baikal</Repository>
 <BindTime>true</BindTime>
