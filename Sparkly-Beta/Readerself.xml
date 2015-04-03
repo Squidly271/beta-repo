@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Container>
 <Name>Readerself</Name>
-<Description>Readerself test installation only[br]IMPORTANT :- YOU MUST CHANGE THE HOST PORT BELOW</Description>
+<Description>Reader Self. Self-hosted rss reader. (Requires mysql/mariadb)[br]IMPORTANT :- YOU MUST CHANGE THE HOST PORT BELOW</Description>
 <Registry>https://registry.hub.docker.com/u/sparklyballs/readerself/</Registry>
 <Repository>sparklyballs/readerself</Repository>
 <BindTime>true</BindTime>
