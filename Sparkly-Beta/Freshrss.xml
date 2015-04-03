@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Container>
 <Name>Freshrss</Name>
-<Description>Freshrss test installation only[br]IMPORTANT :- YOU MUST CHANGE THE HOST PORT BELOW</Description>
+<Description>FreshRSS is a free, self hostable, rss aggregator[br]IMPORTANT :- YOU MUST CHANGE THE HOST PORT BELOW</Description>
 <Registry>https://registry.hub.docker.com/u/sparklyballs/freshrss/</Registry>
 <Repository>sparklyballs/freshrss</Repository>
 <BindTime>true</BindTime>
