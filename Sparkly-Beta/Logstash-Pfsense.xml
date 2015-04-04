@@ -44,7 +44,7 @@
 <Mode>rw</Mode>
 </Volume>
 </Data>
-<WebUI>http://[IP]:[PORT:80]/index.html#/dashboard/file/pfsense.json</WebUI>
+<WebUI>http://[IP]:[PORT:80]/</WebUI>
 <Banner>http://3.bp.blogspot.com/-kEJdMJOk-Ek/VLBP35BVfYI/AAAAAAACPBc/1NERucHXl_o/s1600/kibana_banner.png</Banner>
 <Icon>http://i.imgur.com/Bkp9gC2.png</Icon>
 </Container>
