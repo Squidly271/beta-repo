@@ -4,8 +4,8 @@
 <Description>ELK stack specifically for monitoring PFsense (2.2 by default)[br]You must edit the 10-syslog.conf file found in the logstash-conf folder of your locally stored config.[br]Change to match your pfsense ip address taking care to keep the same format of slashes and dots, ie just replace the numbers.
   
 </Description>
-<Registry>https://registry.hub.docker.com/u/sparklyballs/elkstash/</Registry>
-<Repository>sparklyballs/elkstash</Repository>
+<Registry>https://registry.hub.docker.com/u/sparklyballs/logstash-pfsense/</Registry>
+<Repository>sparklyballs/logstash-pfsense</Repository>
 <BindTime>true</BindTime>
 <Privileged>false</Privileged>
 <Networking>
