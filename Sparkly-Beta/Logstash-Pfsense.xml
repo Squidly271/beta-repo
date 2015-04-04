@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Container>
 <Name>Pf-Logstash</Name>
-<Description>ELK stack specifically for monitoring PFsense (2.2 by default)</Description>
+<Description>ELK stack specifically for monitoring PFsense (2.2 by default)[br]You must edit the 10-syslog.conf file found in the logstash-conf folder of your locally stored config.[br]Change to match your pfsense ip address taking care to keep the same format of slashes and dots, ie just replace the numbers.
+  
+</Description>
 <Registry>https://registry.hub.docker.com/u/sparklyballs/elkstash/</Registry>
 <Repository>sparklyballs/elkstash</Repository>
 <BindTime>true</BindTime>
