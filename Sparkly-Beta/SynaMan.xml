@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Container>
 <Name>SynaMan</Name>
-<Description>Synaman</Description>
+<Description>Web-based remote file manager allowing users to upload or download files from any machine[br]Map volume /shared to your local files.</Description>
 <Registry>https://registry.hub.docker.com/u/sparklyballs/synaman/</Registry>
 <Repository>sparklyballs/synaman</Repository>
 <BindTime>true</BindTime>
@@ -30,7 +30,7 @@
 </Volume>
 <Volume>
 <HostDir></HostDir>
-<ContainerDir></ContainerDir>
+<ContainerDir>/Shared</ContainerDir>
 <Mode>rw</Mode>
 </Volume>
 </Data>
