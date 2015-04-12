@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Container>
 <Name>Pacs</Name>
-<Description>Test installation of PACS</Description>
+<Description>PACS server instance</Description>
 <Registry>https://registry.hub.docker.com/u/sparklyballs/pacs/</Registry>
 <Repository>sparklyballs/pacs</Repository>
 <BindTime>true</BindTime>
