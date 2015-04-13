@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Container>
 <Name>Taskboard</Name>
+<support>http://lime-technology.com/forum/index.php?topic=38232</support>
 <Description>A simple, visual way to keep track of what needs to get done[br][b]IMPORTANT:- You must change the host port below to avoid clash with default unraid webui port.[/b][br]More information http://taskboard.matthewross.me/</Description>
 <Registry>https://registry.hub.docker.com/u/sparklyballs/taskboard/</Registry>
 <Repository>sparklyballs/taskboard</Repository>
