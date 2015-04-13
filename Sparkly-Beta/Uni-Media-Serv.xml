@@ -1,7 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Container>
 <Name>Unimediaserv</Name>
-<Description>Univeral Media Server test installation only</Description>
+<support>http://lime-technology.com/forum/index.php?topic=38232</support>
+<Description>Universal Media Server is a media server capable of serving videos, audio and images to any DLNA-capable device.
+
+It is free, regularly updated and has more features than any other media server, including paid media servers.
+
+It streams to many devices including PS3, Xbox One and 360, many TVs (Samsung, Panasonic, Sony, Vizio, LG, Philips, Sharp), smart phones (iPhone, Android, etc.), Blu-ray players, and more.</Description>
 <Registry>https://registry.hub.docker.com/u/sparklyballs/universal-media-server/</Registry>
 <Repository>sparklyballs/universal-media-server</Repository>
 <BindTime>true</BindTime>
