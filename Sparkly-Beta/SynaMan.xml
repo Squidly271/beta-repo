@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Container>
 <Name>SynaMan</Name>
-<support>http://lime-technology.com/forum/index.php?topic=38232</support>
+<Support>http://lime-technology.com/forum/index.php?topic=38232</Support>
 <Description>Web-based remote file manager allowing users to upload or download files from any machine[br]Map volume /shared to your local files.</Description>
 <Registry>https://registry.hub.docker.com/u/sparklyballs/synaman/</Registry>
 <Repository>sparklyballs/synaman</Repository>
