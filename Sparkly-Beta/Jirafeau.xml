@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Container>
+<Name>Jirafeau</Name>
+<Overview>Jirafeau is a simplistic minimalist way to upload a file to a server and share a link to it. In HTML5 enabled browsers there is no upload size limit.</Overview>
+<Support>http://lime-technology.com/forum/index.php?topic=38232</Support>
+<Description>Jirafeau is a simplistic minimalist way to upload a file to a server and share a link to it.[br][b]IMPORTANT :- YOU MUST CHANGE THE HOST PORT BELOW[/b]</Description>
+<Registry>https://registry.hub.docker.com/u/sparklyballs/jirafeau/</Registry>
+<Repository>sparklyballs/jirafeau</Repository>
+<BindTime>true</BindTime>
+<Privileged>false</Privileged>
+<Networking>
+<Mode>bridge</Mode>
+<Publish>
+<Port>
+<HostPort>80</HostPort>
+<ContainerPort>80</ContainerPort>
+<Protocol>tcp</Protocol>
+</Port>
+</Publish>
+</Networking>
+<Environment>
+<Variable>
+<Name></Name>
+<Value></Value>
+</Variable>
+</Environment>
+<Data>
+<Volume>
+<HostDir></HostDir>
+<ContainerDir>/var/www/Jirafeau</ContainerDir>
+<Mode>rw</Mode>
+</Volume>
+<Volume>
+<HostDir></HostDir>
+<ContainerDir></ContainerDir>
+<Mode>rw</Mode>
+</Volume>
+</Data>
+<WebUI>http://[IP]:[PORT:80]/</WebUI>
+<Banner></Banner>
+<Icon>http://i.imgur.com/6pDzVj3.png</Icon>
+</Container>
