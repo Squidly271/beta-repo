@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Container>
 <Name>Freshrss</Name>
+<Overview>FreshRSS is a free, self hostable, rss aggregator</Overview>
 <Support>http://lime-technology.com/forum/index.php?topic=38232</Support>
 <Description>FreshRSS is a free, self hostable, rss aggregator[br][b]IMPORTANT :- YOU MUST CHANGE THE HOST PORT BELOW[/b]</Description>
 <Registry>https://registry.hub.docker.com/u/sparklyballs/freshrss/</Registry>
