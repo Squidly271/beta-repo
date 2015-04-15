@@ -32,7 +32,7 @@
 </Volume>
 <Volume>
 <HostDir></HostDir>
-<ContainerDir></ContainerDir>
+<ContainerDir>/Uploads</ContainerDir>
 <Mode>rw</Mode>
 </Volume>
 </Data>
