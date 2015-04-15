@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Container>
 <Name>Myyna</Name>
+<Overview>Myyna is a self hosted pinterest like server.</Overview>
 <Support>http://lime-technology.com/forum/index.php?topic=38232</Support>
 <Description>Myyna is a self hosted pinterest like server.[br]IMPORTANT :- YOU MUST REGISTER AT http://www.myyna.com/[br] USE LOCALHOST AND LEAVE USER/PASSWORD BLANK FOR DATABASE</Description>
 <Registry>https://registry.hub.docker.com/u/sparklyballs/myyna/</Registry>
