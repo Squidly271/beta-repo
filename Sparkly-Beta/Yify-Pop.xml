@@ -13,7 +13,7 @@ Easy to install on a remote server, Yify Pop has a large set of movies, TV shows
 <BindTime>true</BindTime>
 <Privileged>false</Privileged>
 <Networking>
-<Mode>host</Mode>
+<Mode>bridge</Mode>
 <Publish>
 <Port>
 <HostPort>80</HostPort>
