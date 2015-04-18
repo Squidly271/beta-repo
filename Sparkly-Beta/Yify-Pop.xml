@@ -7,7 +7,7 @@ Easy to install on a remote server, Yify Pop has a large set of movies, TV shows
 <Support>http://lime-technology.com/forum/index.php?topic=38232</Support>
 <Description>Yify Pop is a web server to stream torrents from yify, with a nice interface, which is actually responsive design (Mobile/Tablet friendly).
 
-Easy to install on a remote server, Yify Pop has a large set of movies, TV shows and also includes a large set of subtitles in different languages.[br][br] There are no mapped folders as it doesn't really require any.</Description>
+Easy to install on a remote server, Yify Pop has a large set of movies, TV shows and also includes a large set of subtitles in different languages.</Description>
 <Registry>https://registry.hub.docker.com/u/sparklyballs/yify-pop/</Registry>
 <Repository>sparklyballs/yify-pop</Repository>
 <BindTime>true</BindTime>
@@ -29,6 +29,11 @@ Easy to install on a remote server, Yify Pop has a large set of movies, TV shows
 </Variable>
 </Environment>
 <Data>
+<Volume>
+<HostDir></HostDir>
+<ContainerDir>/opt/yify-pop</ContainerDir>
+<Mode>rw</Mode>
+</Volume>  
 </Data>
 <WebUI>http://[IP]:[PORT:4000]/</WebUI>
 <Banner>http://i.imgur.com/TeiQNKg.png</Banner>
