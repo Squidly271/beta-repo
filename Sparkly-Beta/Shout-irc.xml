@@ -26,8 +26,8 @@
 </Environment>
 <Data>
 <Volume>
-<HostDir>/usr/local/lib/node_modules/shout</HostDir>
-<ContainerDir></ContainerDir>
+<HostDir></HostDir>
+<ContainerDir>/usr/local/lib/node_modules/shout</ContainerDir>
 <Mode></Mode>
 </Volume>
 <Volume>
