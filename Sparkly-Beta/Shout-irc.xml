@@ -3,7 +3,7 @@
 <Name>Shout-Irc</Name>
 <Overview>Browser based IRC client using node</Overview>
 <Support>http://lime-technology.com/forum/index.php?topic=38232</Support>
-<Description>Browser based IRC client using node</Description>
+<Description>Browser based IRC client using node, config options in the locally stored config.js[br][br]For more information visit http://shout-irc.com/docs/getting_started/usage.html</Description>
 <Registry>https://registry.hub.docker.com/u/sparklyballs/shout-irc/</Registry>
 <Repository>sparklyballs/shout-irc</Repository>
 <BindTime>true</BindTime>
@@ -27,7 +27,7 @@
 <Data>
 <Volume>
 <HostDir></HostDir>
-<ContainerDir></ContainerDir>
+<ContainerDir>/config</ContainerDir>
 <Mode></Mode>
 </Volume>
 <Volume>
