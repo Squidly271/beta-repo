@@ -2,8 +2,8 @@
 <Container>
 <Name>Magpie</Name>
 <Support>http://lime-technology.com/forum/index.php?topic=38232</Support>
-<Overview>Magpie, for  MArkdown, Git, PIEthon is a Python based note taking application that can be installed on your own server. It is a web tool for managing all your notes, in a git repository.</Overview>
-<Description>Magpie, for  MArkdown, Git, PIEthon is a Python based note taking application that can be installed on your own server. It is a web tool for managing all your notes, in a git repository.</Description>
+<Overview>Magpie is a Python based note taking application that can be installed on your own server. It is a web tool for managing all your notes, in a git repository.</Overview>
+<Description>Magpie is a Python based note taking application that can be installed on your own server. It is a web tool for managing all your notes, in a git repository.</Description>
 <Registry>https://registry.hub.docker.com/u/sparklyballs/magpie/</Registry>
 <Repository>sparklyballs/magpie</Repository>
 <BindTime>true</BindTime>
