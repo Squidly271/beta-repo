@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Container>
-<Name>Baikal</Name>
+<Name>Magpie</Name>
 <Support>http://lime-technology.com/forum/index.php?topic=38232</Support>
-<Overview>Baïkal lets you synchronize your calendars and address books over CalDAV and CardDAV.</Overview>
-<Description>Baïkal lets you synchronize your calendars and address books over CalDAV and CardDAV.[br]Baïkal implements the IETF standards for centralized calendar and address book collections and is compatible with a large set of applications[br][b]IMPORTANT :- YOU MUST CHANGE THE HOST PORT BELOW[/b][br] ALSO SELECT SQLITE AS DATABASE TYPE (DEFAULT)</Description>
-<Registry>https://registry.hub.docker.com/u/sparklyballs/baikal/</Registry>
-<Repository>sparklyballs/baikal</Repository>
+<Overview>Magpie, for  MArkdown, Git, PIEthon is a Python based note taking application that can be installed on your own server. It is a web tool for managing all your notes, in a git repository.</Overview>
+<Description>Magpie, for  MArkdown, Git, PIEthon is a Python based note taking application that can be installed on your own server. It is a web tool for managing all your notes, in a git repository.</Description>
+<Registry>https://registry.hub.docker.com/u/sparklyballs/magpie/</Registry>
+<Repository>sparklyballs/magpie</Repository>
 <BindTime>true</BindTime>
 <Privileged>false</Privileged>
 <Networking>
 <Mode>bridge</Mode>
 <Publish>
 <Port>
-<HostPort>80</HostPort>
-<ContainerPort>80</ContainerPort>
+<HostPort>8080</HostPort>
+<ContainerPort>8080</ContainerPort>
 <Protocol>tcp</Protocol>
 </Port>
 </Publish>
@@ -27,7 +27,7 @@
 <Data>
 <Volume>
 <HostDir></HostDir>
-<ContainerDir>/var/www/baikal-regular</ContainerDir>
+<ContainerDir>/config</ContainerDir>
 <Mode>rw</Mode>
 </Volume>
 <Volume>
@@ -36,7 +36,7 @@
 <Mode>rw</Mode>
 </Volume>
 </Data>
-<WebUI>http://[IP]:[PORT:80]/</WebUI>
+<WebUI>http://[IP]:[PORT:8080]/</WebUI>
 <Banner></Banner>
-<Icon>http://busymac.com/images/icon.png</Icon>
+<Icon>http://i.imgur.com/TYPb5Rc.png</Icon>
 </Container>
