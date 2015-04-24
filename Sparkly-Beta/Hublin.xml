@@ -12,8 +12,8 @@
 <Mode>bridge</Mode>
 <Publish>
 <Port>
-<HostPort>8080</HostPort>
-<ContainerPort>8080</ContainerPort>
+<HostPort>8091</HostPort>
+<ContainerPort>8091</ContainerPort>
 <Protocol>tcp</Protocol>
 </Port>
 </Publish>
@@ -31,7 +31,7 @@
 <Mode>rw</Mode>
 </Volume>
 </Data>
-<WebUI>http://[IP]:[PORT:8080]/</WebUI>
+<WebUI>http://[IP]:[PORT:8091]/</WebUI>
 <Banner></Banner>
 <Icon>http://i.imgur.com/Ox23tFK.png</Icon>
 </Container>
