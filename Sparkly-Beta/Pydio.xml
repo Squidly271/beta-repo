@@ -3,7 +3,7 @@
 <Name>Pydio</Name>
 <Support>http://lime-technology.com/forum/index.php?topic=38232</Support>
 <Overview>Pydio (formerly AjaXplorer) is a mature open source software solution for file sharing and synchronization. With intuitive user interfaces (web / mobile / desktop), Pydio provides enterprise-grade features to gain back control and privacy of your data: user directory connectors, legacy filesystems drivers, comprehensive admin interface, and much more.</Overview>
-<Description>Pydio (formerly AjaXplorer) is a mature open source software solution for file sharing and synchronization. With intuitive user interfaces (web / mobile / desktop), Pydio provides enterprise-grade features to gain back control and privacy of your data: user directory connectors, legacy filesystems drivers, comprehensive admin interface, and much more.</Description>
+<Description>Pydio (formerly AjaXplorer) is a mature open source software solution for file sharing and synchronization. With intuitive user interfaces (web / mobile / desktop), Pydio provides enterprise-grade features to gain back control and privacy of your data: user directory connectors, legacy filesystems drivers, comprehensive admin interface, and much more.[br][br][b]You will need to change the port below, during setup you should sqlite, at the end it will give you contents of an .htaccess file which you must place in the root of your local folder and then refresh the page.</Description>
 <Registry>https://registry.hub.docker.com/u/sparklyballs/pydio/</Registry>
 <Repository>sparklyballs/pydio</Repository>
 <BindTime>true</BindTime>
