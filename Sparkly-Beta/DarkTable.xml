@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Container>
   <Name>DarkTable</Name>
-  <Description></Description>
-  <Support></Support>
-  <Overview></Overview>
+  <Description>Darktable is an open source photography workflow application and RAW developer. A virtual lighttable and darkroom for photographers. It manages your digital negatives in a database, lets you view them through a zoomable lighttable and enables you to develop raw images and enhance them. GUI App In an RDP container accessible through the browser without using remote desktop software</Description>
+  <Support>http://lime-technology.com/forum/index.php?topic=38232.0</Support>
+  <Overview>Darktable is an open source photography workflow application and RAW developer. A virtual lighttable and darkroom for photographers. It manages your digital negatives in a database, lets you view them through a zoomable lighttable and enables you to develop raw images and enhance them. GUI App In an RDP container accessible through the browser without using remote desktop software</Overview>
   <Registry>https://registry.hub.docker.com/u/sparklyballs/darktable/</Registry>
   <Repository>sparklyballs/darktable</Repository>
   <BindTime>true</BindTime>
