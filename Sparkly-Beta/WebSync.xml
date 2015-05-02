@@ -22,12 +22,12 @@
   <Data>
     <Volume>
       <HostDir></HostDir>
-      <ContainerDir></ContainerDir>
+      <ContainerDir>/Source</ContainerDir>
       <Mode>rw</Mode>
     </Volume>
     <Volume>
       <HostDir></HostDir>
-      <ContainerDir></ContainerDir>
+      <ContainerDir>/Backups</ContainerDir>
       <Mode>rw</Mode>
     </Volume>
   </Data>
