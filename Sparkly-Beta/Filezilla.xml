@@ -32,7 +32,7 @@
       <Mode>rw</Mode>
     </Volume>
   </Data>
-  <WebUI>http://[IP]:[PORT:8080]/#/client/c/DarkTable</WebUI>
+  <WebUI>http://[IP]:[PORT:8080]/#/client/c/FileZilla</WebUI>
   <Banner>http://i.imgur.com/VktkrxG.png</Banner>
   <Icon>http://i.imgur.com/gcW8lbh.png</Icon>
 </Container>
