@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Container>
   <Name>Filezilla</Name>
-  <Description></Description>
-  <Support>http://lime-technology.com/forum/index.php?topic=38232.0</Support>
-  <Overview></Overview>
+  <Description>FileZilla, the free FTP solution.</Description>
+  <Support>http://lime-technology.com/forum/index.php?topic=39689.0</Support>
+  <Overview>FileZilla, the free FTP solution.</Overview>
   <Registry>https://registry.hub.docker.com/u/sparklyballs/filezilla/</Registry>
   <Repository>sparklyballs/filezilla</Repository>
   <BindTime>true</BindTime>
