@@ -4,8 +4,8 @@
   <Support>http://lime-technology.com/forum/index.php?topic=39624</Support>
   <Description>Scriptable version of handbrake, with both the GUI and CLI version of HB. Map watch folder to allow you to place a file in to be processed, map script folder for placing script in.</Description>
   <Overview>Scriptable version of handbrake, with both the GUI and CLI version of HB.</Overview>
-  <Registry>https://registry.hub.docker.com/u/sparklyballs/handbrake/</Registry>
-  <Repository>sparklyballs/handbrake</Repository>
+  <Registry>https://registry.hub.docker.com/u/sparklyballs/handbrake-scriptable/</Registry>
+  <Repository>sparklyballs/handbrake-scriptable</Repository>
   <BindTime>true</BindTime>
   <Privileged>false</Privileged>
   <Environment/>
