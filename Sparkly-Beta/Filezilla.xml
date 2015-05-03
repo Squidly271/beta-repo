@@ -31,6 +31,11 @@
       <ContainerDir>/Fetched-Files</ContainerDir>
       <Mode>rw</Mode>
     </Volume>
+        <Volume>
+      <HostDir></HostDir>
+      <ContainerDir>/nobody/.config/filezilla</ContainerDir>
+      <Mode>rw</Mode>
+    </Volume>
   </Data>
   <WebUI>http://[IP]:[PORT:8080]/#/client/c/FileZilla</WebUI>
   <Banner>http://i.imgur.com/VktkrxG.png</Banner>
