@@ -27,7 +27,7 @@
     </Volume>
     <Volume>
       <HostDir></HostDir>
-      <ContainerDir></ContainerDir>
+      <ContainerDir>/nobody/.config/dconf</ContainerDir>
       <Mode>rw</Mode>
     </Volume>
   </Data>
