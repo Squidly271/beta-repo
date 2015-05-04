@@ -25,6 +25,11 @@
       <ContainerDir>/Pictures</ContainerDir>
       <Mode>rw</Mode>
     </Volume>
+        <Volume>
+      <HostDir></HostDir>
+      <ContainerDir>/Pictures-Imported</ContainerDir>
+      <Mode>rw</Mode>
+    </Volume>
     <Volume>
       <HostDir></HostDir>
       <ContainerDir>/nobody/.config/dconf</ContainerDir>
