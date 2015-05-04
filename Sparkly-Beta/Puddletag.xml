@@ -28,7 +28,7 @@ Supported formats: ID3v1, ID3v2 (mp3), MP4 (mp4, m4a, etc.), VorbisComments (ogg
   <Data>
     <Volume>
       <HostDir></HostDir>
-      <ContainerDir>/Pictures</ContainerDir>
+      <ContainerDir>/Music</ContainerDir>
       <Mode>rw</Mode>
     </Volume>
     <Volume>
