@@ -4,8 +4,8 @@
   <Description>Shotwell is an image organizer designed to provide personal photo management</Description>
   <Support>http://lime-technology.com/forum/index.php?topic=38232.0</Support>
   <Overview>Shotwell is an image organizer designed to provide personal photo management</Overview>
-  <Registry>https://registry.hub.docker.com/u/sparklyballs/darktable/</Registry>
-  <Repository>sparklyballs/darktable</Repository>
+  <Registry>https://registry.hub.docker.com/u/sparklyballs/shotwell/</Registry>
+  <Repository>sparklyballs/shotwell</Repository>
   <BindTime>true</BindTime>
   <Privileged>false</Privileged>
   <Environment/>
