@@ -1,14 +1,23 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Container>
   <Name>DarkTable</Name>
-  <Description>Darktable is an open source photography workflow application and RAW developer. A virtual lighttable and darkroom for photographers. It manages your digital negatives in a database, lets you view them through a zoomable lighttable and enables you to develop raw images and enhance them. GUI App In an RDP container accessible through the browser without using remote desktop software[br][br][b]Map the /nobody/.config/darktable to have persistent settings[br]Pictures folder for your photos IN/OUT.[br]Whilst in the webui hitting alt-F12 will toggle a bigger screen size for the app[/b]</Description>
+  <Description>Darktable is an open source photography workflow application and RAW developer. A virtual lighttable and darkroom for photographers. It manages your digital negatives in a database, lets you view them through a zoomable lighttable and enables you to develop raw images and enhance them. GUI App In an RDP container accessible through the browser without using remote desktop software[br][br][b]Map the /nobody/.config/darktable to have persistent settings[br]Pictures folder for your photos IN/OUT.[br]Whilst in the webui hitting alt-F12 will toggle full screen for the app[/b][br][br][b]To increase screen resolution[br]Toggle advanced in this template and adjust[br]HEIGHT and WIDTH to suit[/b]</Description>
   <Support>http://lime-technology.com/forum/index.php?topic=38232.0</Support>
   <Overview>Darktable is an open source photography workflow application and RAW developer. A virtual lighttable and darkroom for photographers. It manages your digital negatives in a database, lets you view them through a zoomable lighttable and enables you to develop raw images and enhance them. GUI App In an RDP container accessible through the browser without using remote desktop software</Overview>
   <Registry>https://registry.hub.docker.com/u/sparklyballs/darktable/</Registry>
   <Repository>sparklyballs/darktable</Repository>
   <BindTime>true</BindTime>
   <Privileged>false</Privileged>
-  <Environment/>
+    <Environment>
+<Variable>
+<Name>WIDTH</Name>
+<Value>1280</Value>
+</Variable>
+<Variable>
+<Name>HEIGHT</Name>
+<Value>720</Value>
+</Variable>
+<Environment/>
   <Networking>
     <Mode>bridge</Mode>
     <Publish>
