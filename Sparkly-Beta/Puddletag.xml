@@ -23,7 +23,7 @@ Supported formats: ID3v1, ID3v2 (mp3), MP4 (mp4, m4a, etc.), VorbisComments (ogg
 <Name>HEIGHT</Name>
 <Value>720</Value>
 </Variable>
-<Environment/>
+</Environment>
   <Networking>
     <Mode>bridge</Mode>
     <Publish>
