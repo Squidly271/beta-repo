@@ -2,8 +2,8 @@
 <Container>
   <Name>WebSync</Name>
   <Support>http://lime-technology.com/forum/index.php?topic=39646</Support>
-  <Description>An easy way to manage rsync jobs.[br]With websync's great and intuitive user interface you can now easily set up and schedule backup tasks.</Description>
-  <Overview>An easy way to manage rsync jobs.[br]With websync's great and intuitive user interface you can now easily set up and schedule backup tasks.</Overview>
+  <Description>An easy way to manage rsync jobs.[/br]With websync's great and intuitive user interface you can now easily set up and schedule backup tasks.</Description>
+  <Overview>An easy way to manage rsync jobs.[/br]With websync's great and intuitive user interface you can now easily set up and schedule backup tasks.</Overview>
   <Registry>https://registry.hub.docker.com/u/sparklyballs/websync/</Registry>
   <Repository>sparklyballs/websync</Repository>
   <BindTime>true</BindTime>
