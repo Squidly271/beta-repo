@@ -25,6 +25,11 @@
 </Variable>
 </Environment>
 <Data>
+  <Volume>
+<HostDir></HostDir>
+<ContainerDir>/UNRAID</ContainerDir>
+<Mode>rw</Mode>
+</Volume>
 <Volume>
 <HostDir></HostDir>
 <ContainerDir>/var/www/pydio</ContainerDir>
