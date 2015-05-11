@@ -12,9 +12,9 @@ Follow info here for MYSQL setup details:-[br] http://kodi.wiki/view/HOW-TO:Sync
 The following variables need to be set to work with a MYSQL install[br]
 MYSQLip :- IP address of your mysql installation [br][b]YOU MUST USE IP ADDRESS AND NOT HOST NAME[/b][br]
 MYSQLport :- the port number for mysql on your mysql host (usually 3306)[br]
-MYSQLuser :- The xbmc user for mysql host [b]NOT USUALLY ROOT[/b] [br]
+MYSQLuser :- The xbmc user for mysql host [b]NOT ROOT[/b] [br]
 MYSQLpass :- The xmbc password for mysql host[br]
-[b]OTHER KODI INSTALLS ON YOUR LOCAL NETWORK MUST BE HELIX (14)[br] AND HAVE SAME SETTINGS IN advancedsettings.xml TO SHARE A COMMON LIBRARY[/b]
+[b]OTHER KODI INSTALLS ON YOUR LOCAL NETWORK MUST BE ISENGARD(15)[br] AND HAVE SAME SETTINGS IN advancedsettings.xml TO SHARE A COMMON LIBRARY[/b]
 </Description>
 <Registry>https://registry.hub.docker.com/u/sparklyballs/headless-kodi-isengard-deb/</Registry>
 <Repository>sparklyballs/headless-kodi-isengard-deb</Repository>
