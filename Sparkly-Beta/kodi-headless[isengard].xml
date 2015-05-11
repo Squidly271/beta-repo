@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Container>
-<Name>KODI-Headless</Name>
+<Name>Isengard-KODI-Headless</Name>
 <Overview>A Headless installation of KODI (isengard 15beta1) to enable SB, CP etc to send updates to.</Overview>
 <Support>http://lime-technology.com/forum/index.php?topic=37209</Support>
 <Description>
