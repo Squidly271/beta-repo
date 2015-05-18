@@ -42,7 +42,7 @@
 </Volume>
 <Volume>
 <HostDir></HostDir>
-<ContainerDir></ContainerDir>
+<ContainerDir>/MEDIA</ContainerDir>
 <Mode>rw</Mode>
 </Volume>
 </Data>
