@@ -3,7 +3,7 @@
 <Name>Serviio</Name>
 <Overview>Serviio is a free media server. It allows you to stream your media files (music, video or images) to renderer devices,(e.g. a TV set, Bluray player, games console or mobile phone) on your connected home network.</Overview>
 <Support>http://lime-technology.com/forum/index.php?topic=38232</Support>
-<Description>Serviio is a free media server. It allows you to stream your media files (music, video or images)[br][b]IMPORTANT :- YOU MUST CHANGE THE HOST PORT FOR PORT 80 BELOW, for the web interface to work.[/b][br][br][b]Map /var/www/serviio to save config etc.. and map /MEDIA to your media on unraid..[br]You can add
+<Description>Serviio is a free media server. It allows you to stream your media files (music, video or images)[br][/b][br][br][b]Map /var/www/serviio to save config etc.. and map /MEDIA to your media on unraid..[br]You can add
  additional mappings if needed.</Description>
 <Registry>https://registry.hub.docker.com/u/sparklyballs/serviio/</Registry>
 <Repository>sparklyballs/serviio</Repository>
@@ -13,10 +13,6 @@
 <Mode>bridge</Mode>
 <Publish>
 <Port>
-<HostPort>80</HostPort>
-<ContainerPort>80</ContainerPort>
-<Protocol>tcp</Protocol>
-</Port><Port>
 <HostPort>8895</HostPort>
 <ContainerPort>8895</ContainerPort>
 <Protocol>tcp</Protocol>
@@ -46,7 +42,6 @@
 <Mode>rw</Mode>
 </Volume>
 </Data>
-<WebUI>http://[IP]:[PORT:80]/</WebUI>
 <Banner></Banner>
 <Icon>http://i.imgur.com/F5K2QEK.png</Icon>
 </Container>
