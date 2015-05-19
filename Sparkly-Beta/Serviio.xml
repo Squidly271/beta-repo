@@ -43,7 +43,7 @@
 </Volume>
 <Volume>
 <HostDir></HostDir>
-<ContainerDir>/opt/serviio/</ContainerDir>
+<ContainerDir>/opt/serviio</ContainerDir>
 <Mode>rw</Mode>
 </Volume>
 </Data>
