@@ -3,7 +3,7 @@
 <Name>Serviio</Name>
 <Overview>Serviio is a free media server. It allows you to stream your media files (music, video or images) to renderer devices,(e.g. a TV set, Bluray player, games console or mobile phone) on your connected home network.</Overview>
 <Support>http://lime-technology.com/forum/index.php?topic=38232</Support>
-<Description>Serviio is a free media server. It allows you to stream your media files (music, video or images)[br][/b][br][br][b]Map the /MOVIES and /MUSIC to your media on unraid..[br]You can add
+<Description>Serviio is a free media server. It allows you to stream your media files (music, video or images)[br][/b][br][br][b]Map /opt/serviio to store config on unraid, Map the /MOVIES and /MUSIC to your media on unraid..[br]You can add
  additional mappings if needed.</Description>
 <Registry>https://registry.hub.docker.com/u/sparklyballs/serviio/</Registry>
 <Repository>sparklyballs/serviio</Repository>
@@ -39,6 +39,11 @@
 <Volume>
 <HostDir></HostDir>
 <ContainerDir>/MOVIES</ContainerDir>
+<Mode>rw</Mode>
+</Volume>
+<Volume>
+<HostDir></HostDir>
+<ContainerDir>/opt/serviio/</ContainerDir>
 <Mode>rw</Mode>
 </Volume>
 </Data>
