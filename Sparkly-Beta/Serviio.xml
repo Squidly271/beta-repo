@@ -4,7 +4,7 @@
 <Overview>Serviio is a free media server. It allows you to stream your media files (music, video or images) to renderer devices,(e.g. a TV set, Bluray player, games console or mobile phone) on your connected home network.</Overview>
 <Support>http://lime-technology.com/forum/index.php?topic=38232</Support>
 <Description>Serviio is a free media server. It allows you to stream your media files (music, video or images)[br][/b][br][br][b]Map /config to store config on unraid, Map the /MOVIES and /MUSIC to your media on unraid..[br]You can add
- additional mappings if needed.[br][br][b]YOU MUST REMAP HOST PORT 80 BELOW TO AVOID CLASH WITH UNRAID WEBUI</Description>
+ additional mappings if needed.[br][br]</Description>
 <Registry>https://registry.hub.docker.com/u/sparklyballs/serviio/</Registry>
 <Repository>sparklyballs/serviio</Repository>
 <BindTime>true</BindTime>
@@ -13,8 +13,8 @@
 <Mode>host</Mode>
 <Publish>
  <Port>
-<HostPort>80</HostPort>
-<ContainerPort>80</ContainerPort>
+<HostPort>8780</HostPort>
+<ContainerPort>8780</ContainerPort>
 <Protocol>tcp</Protocol>
 </Port>
 <Port>
