@@ -32,11 +32,6 @@
 </Volume>
 <Volume>
 <HostDir></HostDir>
-<ContainerDir>/import</ContainerDir>
-<Mode>rw</Mode>
-</Volume>
-<Volume>
-<HostDir></HostDir>
 <ContainerDir>/config</ContainerDir>
 <Mode>rw</Mode>
 </Volume>
