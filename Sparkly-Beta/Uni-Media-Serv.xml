@@ -1,6 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Container>
 <Name>Unimediaserv</Name>
+<Beta>False</Beta>
+<Category>MediaServer:Video MediaServer:Music MediaServer:Photos</Category>
 <Overview>Universal Media Server is a media server capable of serving videos, audio and images to any DLNA-capable device.
 
 It is free, regularly updated and has more features than any other media server, including paid media servers.</Overview>
