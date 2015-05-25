@@ -1,6 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Container>
 <Name>Jirafeau</Name>
+<Beta>False</Beta>
+<Category>Cloud:</Category>
 <Overview>Jirafeau is a simplistic minimalist way to upload a file to a server and share a link to it. In HTML5 enabled browsers there is no upload size limit.</Overview>
 <Support>http://lime-technology.com/forum/index.php?topic=38232</Support>
 <Description>Jirafeau is a simplistic minimalist way to upload a file to a server and share a link to it.[br]Map the /Uploads volume to your local storage and during setup point the installer there.[br][b]IMPORTANT :- YOU MUST CHANGE THE HOST PORT BELOW[/b]</Description>
