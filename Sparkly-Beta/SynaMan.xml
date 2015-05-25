@@ -1,6 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Container>
 <Name>SynaMan</Name>
+<Beta>False</Beta>
+<Category>Cloud:</Category>
 <Overview>Web-based remote file manager allowing users to upload or download files from any machine</Overview>
 <Support>http://lime-technology.com/forum/index.php?topic=38232</Support>
 <Description>Web-based remote file manager allowing users to upload or download files from any machine[br]Map volume /shared to your local files.</Description>
