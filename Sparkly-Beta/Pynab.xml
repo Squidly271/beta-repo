@@ -9,6 +9,8 @@
 <Changes>
 [font size=4]2015.06.01[/font]
 - Initial Release
+[font size=4]2015.06.02[/font]
+- Fix restart error if database was busy last shutdown
 </Changes>
 <Registry>https://registry.hub.docker.com/u/sparklyballs/pynab/</Registry>
 <Repository>sparklyballs/pynab</Repository>
